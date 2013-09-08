@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -f debian/tarsnap/etc/tarsnap.conf.sample
+	rmdir debian/tarsnap/etc
+
+.PHONY: override_dh_auto_install

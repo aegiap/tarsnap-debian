@@ -1,0 +1,5 @@
+tarsnap (1.0.35-1) unstable; urgency=low
+
+  * Initial packaging for Debian
+
+ -- Nicolas Chipaux <aegiap@xvc0.net>  Sat, 07 Sep 2013 10:32:49 +0200

@@ -1,0 +1,21 @@
+Source: tarsnap
+Section: admin
+Priority: optional
+Maintainer: Nicolas Chipaux <aegiap@xvc0.net>
+Build-depends: debhelper (>= 8),
+ libssl-dev,
+ zlib1g-dev,
+ e2fslibs-dev,
+ liblzma-dev,
+ libbz2-dev,
+ libattr1-dev,
+ libacl1-dev
+Standards-Version: 3.9.4
+Homepage: https://www.tarsnap.com/
+
+Package: tarsnap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: backup client for the online service
+ client to manage your encrypted backup on the online service
+ tarsnap run by Dr. Colin Percival. Code is open but not free.
