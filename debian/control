@@ -1,4 +1,4 @@
-Source: tarsnap
+Source: tarsnap-autoconf
 Section: admin
 Priority: optional
 Maintainer: Nicolas Chipaux <aegiap@xvc0.net>

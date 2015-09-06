@@ -1,4 +1,4 @@
-tarsnap (1.0.35-1) unstable; urgency=low
+tarsnap-autoconf (1.0.36.1-1) unstable; urgency=low
 
   * Initial packaging for Debian
 
