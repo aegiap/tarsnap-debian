@@ -1,0 +1,2 @@
+version=3
+https://www.tarsnap.com/download/tarsnap-autoconf-(.+).tgz debian debian/upstream/verify
